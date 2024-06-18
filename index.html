@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Envelope + Letter (Open/Close on Click)</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    
+    <div class="container">
+        <div class="envelope-wrapper">
+            
+            <div class="envelope">
+                
+                <div class="letter">
+                    <div class="text">
+                    
+                        <strong>Dear Favorite </strong>
+                        <p> 
+                            Priyu pehle toh I love you ❣️..
+                            Hum dono ke beech bahut darar h peehle isko khtm krna h, 😕...I never feel soo much happy making you cry 🙂, I just wish jo ho ache se ho bina rukawat ke.ho Everything goes fine for us...haa wo chote mote jhgde jruri h i think lekin bade wale nhi 🙂...First of alll before everything your health is must important ❣️...I will try to make you take care of it and sath sath me about your studies......Its your year tu lgi h isme pdhnee keliye ikdmm I will try to help you.. sun na humkoo mummy boy bnke nhi rhna h..schi i realised ..kuch nhi h usme ye jarur h ki u will loose ur love of lifee....Humkoo tere liye ik protected man bnke rhna h proper ...I just want to do it...🙂..Ab bolne ka sch me mn nhi krta khud krna h bolne se pehle sochte h🙂...
+                            At last I love you...❤‍🩹at all in every case any case i want to be with you like🫤
+                        </p>
+                    </div>
+                </div>
+                
+            </div>
+           
+            <div class="heart"></div>
+             From -Anurag ---- ----   --------- To- My love
+        </div>
+    </div> 
+    <script>
+        const envelope = document.querySelector('.envelope-wrapper');
+        envelope.addEventListener('click', () => {
+            envelope.classList.toggle('flap');
+        });
+    </script>
+</body>
+</html>
